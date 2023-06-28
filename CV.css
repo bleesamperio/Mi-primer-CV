@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/* header{
+    width: 100vw;
+    height: 200px;
+    background-color: cyan;
+    display: flex;
+}
+
+.imgcont{
+    width: 30%;
+    display: flex;
+}
+
+.imgcont img{
+    width: 100%;
+}
+
+.info{
+    background-color: blue;
+    width: 70%;
+    height: 100px;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info p{
+    font-size: 12px;
+    width: 70%;
+
+}
+
+section{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact{
+    width: 30%;
+    background-color: blueviolet;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.exp{
+    width: 70%;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+h3{
+    font-size: 14px;
+}
+
+p{
+    font-size: 12px;
+}
+
+.dato{
+    display: flex;
+    background-color: red;
+    width: 120px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.descripcion{
+    width: 300px;
+    height: 100px;
+    margin-top: 20px;
+} */
+
+
+header{
+    height: 300px;
+    display: flex;
+    background-color: rgb(158, 142, 227);
+}
+
+.info{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.imgcont{
+    width: 30%;
+}
+
+.imgcont img{
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+section{
+    display: flex;
+}
+
+.contact{
+    width: 30%;
+    background-color: rgb(96, 87, 120);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.personal{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 400px;
+}
+
+.exp{
+    padding-top: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descripcion{
+    width: 80%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 180px;
+}
+
